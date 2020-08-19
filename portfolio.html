@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jameem &mdash; I do things for the web.</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="html, css, javascript, jquery" />
+    <meta name="author" content="" />
+
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css" />
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/vendor/aos.css" />
+    <link rel="stylesheet" href="css/vendor/animate.min.css" />
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css" />
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
+  </head>
+
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
+    </nav>
+
+    <div class="unslate_co--site-wrap">
+      <div class="unslate_co--site-inner">
+        <nav class="unslate_co--site-nav site-nav-target">
+          <div class="container">
+            <div
+              class="row align-items-center justify-content-between text-left"
+            >
+              <div class="col-md-5 text-right">
+                <ul
+                  class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block"
+                >
+                  <li class="has-children">
+                    <a href="index.html#home-section" class="nav-link">Home</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="index.html#about-section" class="nav-link"
+                      >About</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="site-logo pos-absolute">
+                <a href="index.html#home-section" class="unslate_co--site-logo"
+                  >jameem<span>.</span><small>me</small></a
+                >
+              </div>
+              <div class="col-md-5 text-right text-lg-left">
+                <ul
+                  class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block"
+                >
+                  <li>
+                    <a href="index.html#education-section" class="nav-link"
+                      >Education</a
+                    >
+                  </li>
+                  <li>
+                    <a href="index.html#tech-section" class="nav-link">Tech</a>
+                  </li>
+                  <li>
+                    <a href="index.html#contact-section" class="nav-link"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+
+                <ul
+                  class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none"
+                >
+                  <li><a href="#" class="js-menu-toggle">Menu</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- END nav -->
+
+        <div
+          class="cover-v1 gradient-bottom-black jarallax"
+          style="background-image: url('images/portfolio-banner.jpg');"
+        >
+          <div
+            class="container"
+            style="min-height: 400px !important; height: 50vh;"
+          >
+            <div
+              class="row align-items-center"
+              style="min-height: 200px !important; height: 50vh;"
+            >
+              <div class="col-md-10 mx-auto text-center">
+                <h1 class="heading" data-aos="fade-up" style="font-size: 3rem;">
+                  Portfolio
+                </h1>
+                <img src="images/divider.png" alt="divider" width="76" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END .cover-v1 -->
+
+        <div
+          class="container"
+          style="
+            max-width: 1600px !important;
+            margin-top: 15px;
+            padding-bottom: 30px;
+          "
+        >
+          <div
+            class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter"
+          >
+            <a href="#" class="text-white js-filter d-inline-block d-lg-none"
+              >Filter</a
+            >
+
+            <div class="filter-wrap">
+              <div class="filter ml-auto" id="filters">
+                <a id="all" href="#" class="active" data-filter="*">All</a>
+                <a id="web" href="#" data-filter=".web">Web</a>
+                <a id="blockchain" href="#" data-filter=".blockchain"
+                  >Blockchain</a
+                >
+                <a id="game" href="#" data-filter=".game">Games</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 20px;">
+            <div
+              class="col-lg-6 col-md-6 col-xs-12 row web"
+              style="margin-left: 15px;"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/netflix.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Netflix Clone
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  A front-end clone of
+                  <a href="https://www.netflix.com/">Netlix</a> with APIs
+                  provided by
+                  <a href="https://www.themoviedb.org/">themoviedb</a>.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Javascript, React JS & Firebase</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://netflix-clone-5ea22.web.app/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/netflix-clone"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 col-md-6 col-xs-12 row web"
+              style="margin-top: 30px; margin-left: 15px;"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/covid.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Covid-19 Tracker
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  A single page web application to track the Covid-19 pandemic
+                  faced by the world today with APIs provided by
+                  <a href="https://disease.sh/">disease.sh</a>.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Javascript, React JS & Firebase</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://covid-tracker-7fed5.web.app/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/covid19-tracker"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="margin-top: 30px; margin-left: 15px;"
+              class="col-lg-6 col-md-6 col-xs-12 row web"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/chat.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Zea Chat
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  A chat application where users can create or join different
+                  chat rooms and chat with each other powered by
+                  <a href="https://socket.io/">socket.io</a>.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val">Javascript, Node JS & Heroku</span>
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://zea-chat-room.herokuapp.com/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/chat-room"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="margin-left: 15px; margin-top: 30px;"
+              class="col-lg-6 col-md-6 col-xs-12 row web"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/amazon.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Amazon Clone
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  A front-end clone of
+                  <a href="https://www.amazon.com/">Amazon.com</a> with features
+                  like user authentication and cart powered by
+                  <a href="https://www.firebase.com/">firebase</a>.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Javascript, React JS, Firestore & Firebase</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://clone-186ce.web.app/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/amazon-clone"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 col-md-6 col-xs-12 row game"
+              style="margin-left: 15px; margin-top: 30px;"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/flappy-bird.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Flappy Bird
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  A clone of
+                  <a href="https://flappybird.io/">flappybird</a>, mobile game
+                  developed with vanilla <a href="#">javascript</a>.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val">Javascript & HTML</span>
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://flappy-bird-j.herokuapp.com/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/flappy-bird"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 col-md-6 col-xs-12 row blockchain"
+              style="margin-left: 15px; margin-top: 30px;"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/crypto.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Crypto Doggies
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  A Crypto collectible game powered by
+                  <a href="http://erc721.org/">ERC721</a> tokens. Users can buy
+                  and sell doggy tokens on the ethereum blockchain. Users should
+                  have <a href="https://metamask.io/">metamask</a> chrome
+                  extension to connect to the ethereum networks.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Javascript, Solidity, Web3.js & HTML</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://crypto-doggies.herokuapp.com/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/crypto-doggies"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 col-md-6 col-xs-12 row web"
+              style="margin-left: 15px; margin-top: 30px;"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/slack.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Slack Clone
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  A front-end clone of
+                  <a href="https://slack.com/">Slack</a> with features like user
+                  authentication and chat. The backend is powered by
+                  <a href="https://www.firebase.com/">firebase</a>.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Javascript, React JS, Firestore & Firebase</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://slack-clone-f421e.web.app/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/slack-clone"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="margin-top: 30px; margin-left: 15px;"
+              class="col-lg-6 col-md-6 col-xs-12 row blockchain"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/crowdFund.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  KickStarter
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  A crowd funding idea for innovative projects on blockchain.
+                  Users can create campaigns on the blockchain and people can
+                  contribute to the project. Manager can withdraw money if half
+                  of the approvers vote on the request. This can restrict the
+                  fraudulent projects from looting the money. Users should have
+                  <a href="https://metamask.io/">metamask</a> chrome extension
+                  to connect to the ethereum networks.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Solidity, ReactJS, NextJs, Web3.js & Truffle</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <!-- <a
+                      href="https://zea-chat-room.herokuapp.com/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a> -->
+                    <a
+                      href="https://github.com/Jameem/kickstarter"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="margin-top: 30px; margin-left: 15px;"
+              class="col-lg-6 col-md-6 col-xs-12 row web"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/insta.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Instagram Clone
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  A front-end clone of
+                  <a href="https://www.instagram.com/">Instagram</a> with
+                  features like user authentication, posts and comments powered
+                  by <a href="https://www.firebase.com/">firebase</a>.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Javascript, React JS, Firestore & Firebase</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://instagram-clone-2a6a2.web.app/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/instagram-clone"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="margin-top: 30px; margin-left: 15px;"
+              class="col-lg-6 col-md-6 col-xs-12 row game"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/maze.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Maze Runner
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  Maze Runner is a small browser based game where a ball find
+                  its way to the goal powered by
+                  <a href="https://brm.io/matter-js/">matter-js</a>.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Javascript, React JS, Firestore & Firebase</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://jameem.github.io/maze-game/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/maze-game"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="margin-top: 30px; margin-left: 15px;"
+              class="col-lg-6 col-md-6 col-xs-12 row blockchain"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/chit.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Chit Fund
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  An idea proposal to solve problems faced by existing Chit fund
+                  system using the capabilities if blockchain Chitfunds are
+                  collection of money from specific number of people in specific
+                  installments. Users should have
+                  <a href="https://metamask.io/">metamask</a> chrome extension
+                  to connect to the ethereum networks.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Solidity, ReactJS, NextJs, Web3.js & Truffle</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <!-- <a
+                      href="https://jameem.github.io/maze-game/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a> -->
+                    <a
+                      href="https://github.com/Jameem/chit-fund"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="margin-top: 30px; margin-left: 15px;"
+              class="col-lg-6 col-md-6 col-xs-12 row blockchain"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/jobchain.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Freelancer on Blockchain
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  An idea proposal for a platform for freelancers on the
+                  blockchain. Users can post projects and people can bid against
+                  the project. Blockchain removes the central authority and also
+                  solves the trustless problem up to an extend. Users should
+                  have
+                  <a href="https://metamask.io/">metamask</a> chrome extension
+                  to connect to the ethereum networks.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Solidity, ReactJS, NextJs, Web3.js & Truffle</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <!-- <a
+                      href="https://jameem.github.io/maze-game/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a> -->
+                    <a
+                      href="https://github.com/Jameem/job-chain"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="margin-top: 30px; margin-left: 15px;"
+              class="col-lg-6 col-md-6 col-xs-12 row web"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img src="images/git.jpg" alt="" style="width: 90%;" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Github Finder
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  An application to search users on the
+                  <a href="https://github.com/">github</a>.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val">Javascript, NodeJS & HTML</span>
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <a
+                      href="https://github-finder-v1.herokuapp.com/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a>
+                    <a
+                      href="https://github.com/Jameem/github-finder"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="margin-top: 30px; margin-left: 15px;"
+              class="col-lg-6 col-md-6 col-xs-12 row blockchain"
+            >
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <img
+                  src="images/donate-crypto.jpg"
+                  alt=""
+                  style="width: 90%;"
+                />
+              </div>
+              <div class="col-lg-6 col-md-12 col-xs-12">
+                <h2 class="" style="font-size: 24px !important;">
+                  Donate Crypto
+                </h2>
+                <hr style="border-bottom: rgb(223, 218, 218) 0.02px solid;" />
+                <p>
+                  Donation campaign for patients suffering from severe diseases
+                  on the blockchain. Users can create campaigns on the
+                  blockchain and people can donate to the campaign. Campaign
+                  manager can withdraw funds by the approval of donators. Users
+                  should have
+                  <a href="https://metamask.io/">metamask</a> chrome extension
+                  to connect to the ethereum networks.
+                </p>
+                <div class="detail-v1">
+                  <span class="detail-label">Tech Stack</span>
+                  <span class="detail-val"
+                    >Solidity, ReactJS, NextJs, Web3.js & Truffle</span
+                  >
+                </div>
+                <div class="detail-v1">
+                  <span class="detail-label">Explore</span>
+                  <p class="detail-label">
+                    <!-- <a
+                      href="https://jameem.github.io/maze-game/"
+                      target="_blank"
+                      style="color: inherit;"
+                      ><i class="icon-globe"></i> View
+                    </a> -->
+                    <a
+                      href="https://github.com/Jameem/donate-crypto"
+                      target="_blank"
+                      style="color: inherit; margin-left: 15px;"
+                      ><i class="icon-github"></i> Project
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              <div class="footer-site-logo">
+                <a href="index.html">jameem<span>.</span>me</a>
+              </div>
+
+              <ul class="footer-site-social">
+                <li>
+                  <a href="https://www.linkedin.com/in/jameem/" target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a href="https://twitter.com/jameem_mohd" target="_blank"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/Jameem" target="_blank">Github</a>
+                </li>
+              </ul>
+
+              <p class="site-copyright">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear())
+                </script>
+                All rights reserved | This template is made with
+                <i class="icon-heart" aria-hidden="true"></i> by
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+  </body>
+</html>
